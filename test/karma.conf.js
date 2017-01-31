@@ -20,6 +20,7 @@ module.exports = function(config) {
     // list of files / patterns to load in the browser
     files: [
       // bower:js
+      'bower_components/jquery/dist/jquery.js',
       'bower_components/angular/angular.js',
       'bower_components/angular-mocks/angular-mocks.js',
       // endbower
@@ -33,7 +34,7 @@ module.exports = function(config) {
     ],
 
     // web server port
-    port: 8080,
+    port: 8280,
 
     // Start these browsers, currently available:
     // - Chrome
