@@ -2,13 +2,13 @@
 
 /**
  * @ngdoc function
- * @name cineAngularApp.controller:MainCtrl
+ * @name cineAngularApp.controller:AboutCtrl
  * @description
- * # MainCtrl
+ * # AboutCtrl
  * Controller of the cineAngularApp
  */
 angular.module('cineAngularApp')
-  .controller('MainCtrl', function () {
+  .controller('AboutCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',

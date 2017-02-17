@@ -2,11 +2,23 @@
 
 /**
  * @ngdoc overview
- * @name firstAppApp
+ * @name cineAngularApp
  * @description
- * # firstAppApp
+ * # cineAngularApp
  *
  * Main module of the application.
  */
 angular
-  .module('firstAppApp', []);
+  .module('cineAngularApp', [
+    'ngRoute', 'ui.bootstrap'
+  ])
+  .config(function ($routeProvider) {
+    $routeProvider
+    .when('/popular', {
+        templateUrl: 'views/popular.html',
+        controller: 'PopularCtrl'
+      })
+      .otherwise({
+        redirectTo: '/popular'
+      });
+  });

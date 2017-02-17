@@ -1,5 +1,5 @@
 // Karma configuration
-// Generated on 2017-01-17
+// Generated on 2017-02-17
 
 module.exports = function(config) {
   'use strict';
@@ -22,7 +22,9 @@ module.exports = function(config) {
       // bower:js
       'bower_components/jquery/dist/jquery.js',
       'bower_components/angular/angular.js',
+      'bower_components/bootstrap/dist/js/bootstrap.js',
       'bower_components/angular-route/angular-route.js',
+      'bower_components/angular-bootstrap/ui-bootstrap-tpls.js',
       'bower_components/angular-mocks/angular-mocks.js',
       // endbower
       'app/scripts/**/*.js',
@@ -35,7 +37,7 @@ module.exports = function(config) {
     ],
 
     // web server port
-    port: 8280,
+    port: 8087,
 
     // Start these browsers, currently available:
     // - Chrome
